@@ -1,11 +1,13 @@
 # MBTI, My Best Team Is 맙티
 
 ## MBTI란? 
+<img src="https://user-images.githubusercontent.com/89440710/154908718-b4c8687d-c772-4cc4-ad3f-98878ae52040.png" width="400" height="260">
 
-MBTI(Myers-Briggs Type Indicator)는 
+
++ MBTI(Myers-Briggs Type Indicator)는 
 스위스의 정신분석학자인 카를 융의 심리 유형론을 토대로 마이어스(Myers)와 브릭스(Briggs)라는 심리학자가 개발한 자기 보고식 성격 유형 검사 도구! 
 
-MBTI는 50여개국에서 널리 사용되고 있으며 다음과 같은 4가지 분류 기준에 따른 결과에 의해 검사자를 16가지 심리 유형 중의 하나로 분류합니다. 
++ MBTI는 50여개국에서 널리 사용되고 있으며 다음과 같은 4가지 분류 기준에 따른 결과에 의해 검사자를 16가지 심리 유형 중의 하나로 분류합니다. 
 
 ## 소개
 요즘 핫한 주제인 MBTI에 대해 관심이 높은 유저들이 한 데 모일 수 있는 커뮤니티 사이트를 주제로 개발했습니다.
@@ -20,6 +22,12 @@ MBTI는 50여개국에서 널리 사용되고 있으며 다음과 같은 4가지
 
 ## 기술스택
 
++ HTML5, CSS3, Javascript, JQuery, JSP
+JAVA, SPRING3, Tomcat, derby, AJAX
+Git, Github
+
 ## 개발기간
+
++ 2021.12.01~ 2021.12.25 약 4주
 
 ## 시연
