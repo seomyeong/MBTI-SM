@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'gameFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.commentWrap{width: 100%; display:none;}
+.comment{width: 100%;}
+.hidden{
+	position:absolute;
+	left: -9999px;
+}
+
+.commentReadWrap{
+	position:relative;
+	padding: 6px 0;
+}
+
+.commentReadWrap:after{
+	display: block;
+    content: "";
+    width: 100%; height: 4px;
+    position:absolute; bottom:0;
+    background-color:  rgba(219, 196, 164, 0.863);
+}
+
+
+/**댓글 작성부분 css*/
+
+.commentWrite{
+	display:flex;
+	align-items: center;
+	padding-top: 15px;
+	
+}
+
+
+.authorImg{
+	background: url(../img/nonLogin.png) no-repeat center/cover;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;	
+}
+.authorWrap{
+	padding-left : 20px;
+	font-family: 'Cafe24Ssurround';
+	width: calc(100% - 50px);
+	font-size: 13px;
+	
+}
+
+.authorInfo span{
+	margin-left: 9px;
+}
+
+.authorLv{font-family: 'Cafe24Ssurround'; color: #B0C4DE;}
+.authorNickname{font-family: 'Cafe24Ssurround'; color: #E996A5;}
+.authorMbti{font-family: 'Cafe24Ssurround'; color: #20B4BA;}
+
+form.writeTextForm{
+	display:flex;
+	flex-direction:column;
+	width: 90%;
+	margin-top: 10px;
+}
+.writeText{
+	width: 100%;
+}
+.writeText input{
+	outline:none;
+	border:none;
+	padding: 0 10px;
+	border-bottom: 3px solid #b2d4ad; box-sizing: border-box;
+	display:block;
+	width:100%;
+	    font-size: 14px;font-family: 'Cafe24Ssurround';
+}
+.writeText input::placeholder{
+	font-family: 'Cafe24Ssurround';
+}
+
+.writeText input:focus{
+	border-bottom: 3px solid #40d629;
+}
+
+
+.commentErrorMsg{
+	font-family: 'Cafe24Ssurround';font-size: 15px;
+	font-weight: 700;
+	color: red;
+}
+
+.writeSubmit{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 7px;
+}
+.writeSubmit input{
+	font-family: 'Cafe24Ssurround';font-size: 14px;
+	outline:none;
+	border:none;
+	float:right;
+	padding: 3px 5px;
+	
+}
+
+/**댓글단 리스트 부분 css*/
+
+.commentRead{
+	width: 580px; margin: 15px 0 0 50px;
+	display: flex;
+	align-items: center;
+	
+}
+.memberImg{
+	border-radius: 13px;
+	width: 30px;
+	height: 42px;	
+}
+.memberWrapOfWrap{
+	width: calc(100% - 30px); height:100%;
+	padding-left : 20px;
+	display: flex;
+}
+.memberWrap{
+	width: 80%; height:100%;
+	display:flex; flex-direction:column;
+	justify-content: center;
+	font-size: 13px;
+	
+}
+
+.memberInfo{font-size : 14px;}
+.eachMember{font-family: 'Cafe24Ssurround'; margin-left: 6px; font-size: 13px;}
+.memberLv{color: #B0C4DE;}
+.memberNickname{color: #E996A5;}
+.memberMbti{color: #20B4BA;}
+
+.memberComment{
+	padding: 10px 0;
+	font-family: 'Cafe24Ssurround';
+}
+
+.memberLike{
+	width: 13%;
+	display: flex;
+	flex-direction:column;
+}
+
+.cultureBoardComment_likes{
+	display: block;
+	height: 70%;
+	background: url(../img/likes.png) no-repeat center/25px 25px;
+}
+.cultureBoardComment_unlikes{
+	display: block;
+	height: 68%;
+	background: url(../img/unlikes.png) no-repeat center/25px 25px;
+}
+.commentLikesCount{
+	height: 32%; text-align:center; line-height:11px;
+	margin-top:1px;
+	font-family: 'Cafe24Ssurround';
+	font-size: 12px;
+	
+}
+
+.memberDelete{
+	width: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

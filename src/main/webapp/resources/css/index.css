@@ -1,0 +1,369 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'gameFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.displayNone{
+	display: none;
+}
+.hidden{
+    position: absolute;
+    top: -9999px;
+}
+a{
+	text-transform: none;
+	color: #000;
+}
+
+table{
+	border-collapse: collapse;
+}
+#main{
+    height: 100%;
+    padding-top: 20px;
+}
+#banner{
+    text-align: center;
+    height: 45%;
+    min-width: 1200px;
+}
+
+
+
+
+#bottomSectionWrap{
+    display: flex;
+    height: 54%;
+    margin: 0 40px;
+}
+
+#cultureContents{
+    width: 100%; height: 100%;
+    min-width: 700px;
+    margin-right: 20px;
+}
+
+#topBtn{
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+  	background-color: #DAECC7;
+    height: 7%;
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px;
+}
+#cultureBtn{min-width: 312px;}
+#cultureBtn input{
+	border: none;
+	background-color: #b2d4ad;
+	color: #fff;
+	font-weight: 700;
+	width: 100px;
+	height: 33px;
+	border-radius: 10px;
+	border-bottom-left-radius : 0;
+	border-bottom-right-radius : 0;
+	
+}
+#index02Toggle{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.mbti-switch{
+	position: relative;
+	width: 60px;
+	height: 30px;
+	border-radius: 50px;
+	background-color:#fff;
+	margin-left:12px;
+	 
+}
+
+.mbti-switch span{
+	font-family: 'Cafe24Ssurround';
+	color:#000;
+}
+
+.mbti-switch input {
+	position: absolute;
+	left: -9999px;
+}
+
+.mbti-switch .toggle {
+	content: '';
+	display: block;
+	width: 28px;
+	height: 28px;
+	background: #b2d4ad;
+	
+	cursor: pointer;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+.front, .back {
+	position: absolute;
+	top: 7px;
+	z-index: 1;
+	pointer-events: none;
+	user-select: none;
+}
+
+.front {
+	left: 10px;
+}
+
+.back {
+	left: 41px;
+}
+#mbtiSubmit{
+	margin-left:18px;
+}
+.mbtiSubmitOff{
+	outline: none;
+    border: 3px solid #B2D4AD;
+    border-radius: 11px;
+    background: #fff;
+    font-weight : 700;
+}
+
+.mbtiSubmitOn{
+    border: 3px solid #fff;
+    border-radius: 11px;
+    background: #B2D4AD;
+    color: #fff;
+}
+
+
+
+
+
+
+#totalBtn{width: 100%; overflow: hidden;}
+#totalBtn input{
+    float: right;
+}
+
+#contentWrap{
+	height: calc(100% - 14%);
+	overflow-y: scroll;
+}
+
+#noneDataWrap{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#noneData p{
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+#contentList{
+	width: 100%;
+}	
+
+#contentHead{
+	background-color: #b2d4ad;
+	font-weight: 700; color: #fff;
+	height: 40px;
+	display: flex;
+	position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#contentHead p{
+	width: 100%;
+	text-align: center;
+	line-height: 38px;
+}
+
+#nullType{
+	height : calc(100% - 40px);
+	width : 100%;
+	display :flex;
+	justify-content : center;
+	align-items : center
+}
+
+#nullType p{
+	font-family: 'Cafe24Ssurround';
+	font-size : 2.5em;
+}
+
+
+.content{
+	height: 135px;
+	border-bottom: 4px solid rgba(219, 196, 164, 0.863);
+}
+
+.content:hover{
+	background-color: rgb(230, 250, 226);
+	transition-duration: 0.5s;
+}
+
+
+.contentForm01{
+	display: flex;	
+	height: 80%;
+	font-size: 16px;
+}
+.contentForm01 div{
+	width: 100%;
+	text-align: center;
+	line-height: 118.39px;
+	font-family: 'Cafe24Ssurround';
+}
+
+.contentForm02{
+	display: flex;
+	height: 20%;
+	font-size: 13px;
+	align-items: center;
+ 	justify-content: space-between;
+ 	padding: 0 30px 4px 25px;
+ 	font-family: 'Cafe24Ssurround';
+}
+
+.commentTd a{
+	display: block;
+	line-height:25px;
+	font-family: 'Cafe24Ssurround';
+}
+
+.content tr:first-child{text-align: center; height: 70%;}
+.content tr:last-child{height: 30%}
+.content tr:last-child td{ height: 100%;}
+.linkTag{
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-family: 'Cafe24Ssurround';
+}
+.dropComment{
+	font-family: 'Cafe24Ssurround';
+	cursor: pointer;
+	
+}
+.likeWrap{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.cultureBoard_likes{
+	display: block;
+	height: 80%;
+	background: url(../img/likes.png) no-repeat center/30px 30px;
+}
+.cultureBoard_unlikes{
+	display: block;
+	height: 80%;
+	background: url(../img/unlikes.png) no-repeat center/30px 30px;
+}
+.likesCount{
+	height: 25%;
+	line-height: 0;
+	font-family: 'Cafe24Ssurround';
+}
+
+.linkIconMusic{
+	width: 25px ; height: 25px;
+	display: inline-block;
+	background: url(../img/music.png) no-repeat center/contain;
+	margin-left: 10px;
+	
+}
+
+.linkIconCinema{
+	width: 27px ; height: 27px;
+	display: inline-block;
+	background: url(../img/cinema.png) no-repeat center/contain;
+	margin-left: 10px;	
+}
+
+.linkIconTrip{
+	width: 25px ; height: 25px;
+	display: inline-block;
+	background: url(../img/trip.png) no-repeat center/contain;
+	margin-left: 10px;	
+}
+
+
+.contentMent{
+	max-width: 350px;
+	overflow: hidden;
+	font-style: italic;
+	text-overflow: ellipsis;
+	white-space : nowrap;
+	font-family: 'Cafe24Ssurround';
+}
+.cultureBoard_reportDate{
+	font-family: 'Cafe24Ssurround';
+}
+
+#bottomBtn{
+	position: relative;
+	height: 7%;
+	background-color: #DAECC7;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#bottomBtn a{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	height: 100%; width: 120px;
+	background-color: #b2d4ad;
+	color: #fff; font-weight: 700;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+#bottomBtn>a{line-height: 38px;}
+
+#newbestBtn{
+	position: absolute;
+	right: 0; top: calc(50% - 10.5px);
+	display: flex;
+}
+
+#newbestBtn a{
+	width: 50px; height: 80%;
+	margin:0 3px;
+}
+
+#mbtiCard{
+    width: 100%; height: 100%;
+    min-width: 550px;
+    /* border: 1px solid #000; box-sizing: border-box; */
+}
+
+
+
+
+
+
+
+
+

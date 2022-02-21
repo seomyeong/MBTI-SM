@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/******팝업창 css********/
+
+input, textarea{
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'gameFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a{text-decoration: none;}
+
+#element_to_pop_up { 
+    background-color:#fff;
+    border-radius:15px;
+    color:#000;
+    display:none; 
+    padding:40px;
+    min-width:550px;
+    min-height: 700px;
+    position: relative;
+}
+
+#popupHead{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 3px solid rgba(131, 131, 131, 0.185);
+}
+#popupBtnWrap{
+    display: flex;
+   
+}
+.popupBtn{
+    display: block;
+    box-sizing: border-box;
+    width: 75px; line-height: 50px; border-radius: 20px; text-align: center;
+    color: #B2D4AD; background-color: #fff; font-weight: 700;
+    border: 3px solid #90d485;
+    margin: 0 20px;
+    font-family: 'gameFont';
+}
+
+.btnClick{
+    background-color: #B2D4AD; color: #fff;
+    transition: .3s;
+}
+
+.popupLayout{
+    display: flex;
+    flex-direction: column;
+}
+.popupLayout span{
+	font-size: 16px;
+	font-family: 'gameFont';
+	color: red;
+	
+}
+#popupMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.forAfter{
+    margin-bottom: 10px;
+}
+
+#popupMain label{
+    font-family: 'gameFont';
+    font-style: italic;
+    font-size: 23px; color: rgba(160, 160, 160, 0.822);
+    margin: 13px 0;
+}
+
+.popupLayout input{
+    font-family: 'gameFont';
+    border: none;
+    width: 150px;
+    text-align: center;
+    margin: 8px 0;
+    display: block;
+    position: relative;
+}
+.forAfter{
+    position: relative;
+}
+
+.forAfter::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%; height: 3px; background-color: #B2D4AD;
+    bottom: 3px; left: 0;
+}
+
+input.link{
+    width: 300px;
+}
+
+textarea{
+    border: 3px solid #B2D4AD;
+    resize: none;
+    font-size: 20px;
+    font-family: 'gameFont';
+    margin-bottom:10px;
+}
+textarea:focus{
+    outline: none;
+}
+textarea::placeholder{
+    text-align: center;
+    font-size: 17px;
+}
+.popupLayout input:focus{
+    outline: none;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+#popupFooter{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#popupFooter input{
+    display: block;
+    width: 240px; box-sizing: border-box;
+    border: none;
+    font-family: 'gameFont';
+    padding: 13px 0;
+    background-color: #B2D4AD;
+    color: #fff;
+}
+.b-close{
+    cursor:pointer;
+    position:absolute;
+    right:10px;
+    top:5px;
+    font-size: 25px; color: rgba(117, 117, 117, 0.486);
+}

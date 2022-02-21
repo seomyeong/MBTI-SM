@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/* 공통 */
+body, h1, h2, h3, h4, h5, h6, table, tr, th, td, ul, p, img, input { padding: 0; margin: 0; }
+body { min-width: 1200px; /* overflow: hidden; */ }
+
+/* 메인 */
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    -ms-user-select: none; 
+  	-moz-user-select: -moz-none;
+  	-khtml-user-select: none;
+  	-webkit-user-select: none;
+  	user-select: none;
+}
+
+form {
+    width: 1100px;
+    margin: 170px auto 75px;
+}
+
+#typeWrap {
+	width: 632px;
+	height: 112px;
+	margin: 0 auto 65px;
+}
+
+.typeWrap {
+	display: inline-block;
+	text-align: center;
+	font-size: 27px;
+}
+
+.typeWrap input {
+	margin-top: 20px;
+	width: 270px;
+	height: 60px;
+	text-align: center;
+	border: 2px solid #dfdfdf;
+	border-radius: 10px;
+	font-size: 30px;
+	
+}
+
+.typeWrap input:focus {
+	outline:none;
+}
+
+.plus {
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	font-size: 45px;
+}
+
+#resultWrap {
+	width: 800px;
+	height: 800px;
+	margin: 65px auto 25px;
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 27px;
+}
+
+.resultText {
+	font-size: 18px;
+}
+
+img {
+	width: 570px;
+	height: 460px;
+	margin-top: 45px;
+}
+
+h3 {
+	margin: 50px 0 30px;
+	font-size: 27px;
+}
+
+#mbtiTip {
+	font-size: 17px;
+}
+
+#create-kakao-link-btn > img {
+	
+	width: 50px;
+	height: 50px;	
+}
+
+#commentWrap {
+	width: 800px;
+	height: 312px;
+	margin: 0 auto 50px;;
+}
+
+.mbtiComment {
+	width: 672px;
+	height: 48px;
+	margin-right: 10px;
+	padding-left: 10px;
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+.submitBtn {
+	width: 110px;
+	height: 48px;
+	border-radius: 5px;
+	font-size: 18px;
+	border: none;
+}
+
+.submitBtn:hover {
+	background: #adcca4;
+}
+
+#cBoxWrap {
+	width: 800px;
+	height: 245px;
+	margin-top: 20px;
+	border: 2px solid #dfdfdf;
+	border-radius: 3px;
+}
+
+#cBoxWrap table {
+	margin-top: -1px;
+	display: block;
+	width: 800px;
+	height: 245px;
+	text-align: center;
+	border-collapse: collapse;
+	
+}
+
+#cBoxWrap table thead {
+	height: 48px;
+	width: 800px;
+	background: #b2d4ad;
+}
+
+#cBoxWrap table thead tr {
+	color: fff;
+}
+
+#cBoxWrap table tbody {
+	display: block;
+	width: 796px;
+	height: 194px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+table th:nth-of-type(1), table td:nth-of-type(1) {
+	width: 100px;
+}
+
+table th:nth-of-type(2), table td:nth-of-type(2) {
+	width: 100px;
+}
+
+table th:nth-of-type(3), table td:nth-of-type(3) {
+	width: 150px;
+}
+
+table th:nth-of-type(4), table td:nth-of-type(4) {
+	width: 446px;
+	margin-right: 20px;
+	table-layout: fixed;
+}
+
+#cBoxWrap table tbody tr {
+	height: 60px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+#cBoxWrap table tbody td {
+	position: relative;
+}
+
+.profileImg {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	left: calc(50% - 25px);
+}
+
+.nullComment {
+	position: relative;
+	bottom: 120px; left: 0;
+	text-align: center;
+}

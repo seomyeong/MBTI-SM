@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.hidden {
+	display: none;
+}
+#writeWrap {
+	width: 80%;
+	margin: 170px auto 0;
+	position: relative;
+}
+#writeTitle {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+form {
+	margin-top: 25px;
+}
+input[name="title"] {
+	width: 100%;
+	padding: 10px 15px;
+	border: 1px solid #828282;
+	border-radius: 7px;
+	margin-bottom: 25px;
+}
+textarea[name="contents"] {
+	width: 100%;
+	height: 500px;
+	padding: 10px 15px;
+	resize: none;
+	border-radius: 7px;
+	margin-bottom: 20px;
+	border-color: #828282;
+}
+
+#goContentsList{
+	border: 1px solid #dcdfe3;
+	border-radius: 7px;
+	padding: 15px 60px;
+	text-decoration: none;
+	text-align: center;
+	color: #828282;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+input[type="submit"] {
+	position: absolute;
+	right: 0;
+	bottom: -15px;
+	border-radius: 7px;
+	border: 0;
+	padding: 15px 60px;
+	color: #fff;
+	font-weight: bold;
+	background: #46cfa7;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+/* errorMsg, typingCount */
+
+#errorMsg1 {
+	position: absolute;
+	top: 25px;
+	right: 5px;
+	color: lightcoral;
+	font-size: 0.8em;
+}
+#errorMsg2 {
+	position: absolute;
+	top: 90px;
+	right: 5px;
+	color: lightcoral;
+	font-size: 0.8em;
+}
+#typingCount {
+	position: absolute;
+	top: 90px;
+	left: 5px;
+	color: #828282;
+	font-weight: bold;
+	font-size: 0.8em;
+	
+}
+
+

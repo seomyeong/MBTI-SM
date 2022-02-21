@@ -1,0 +1,54 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a { text-decoration: none;  
+	color: #f1adad;
+	cursor: pointer;
+}
+#header{
+    width: 100%;
+    line-height: 70px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: right;
+    padding-right: 130px;
+    box-sizing: border-box;
+    user-select: none;
+}
+/* My Best Team Is MBTI */
+#logo{
+    font-family: 'Cafe24Ssurround';
+    cursor: context-menu;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #f1adad;
+    position: relative;
+    top: 20px;
+}
+#logo span{
+    font-family: 'Cafe24Ssurround';
+}
+.logoLetter{
+    color: #b2d4ad;
+    font-size: 20px;
+}
+.logoMbti{
+    color: #b2d4ad;
+    font-size: 30px;
+}
+#logoIcon{
+    width: 40px; height: 40px;
+    background: url(../img/icon/logo2.png) no-repeat center;
+    background-size: 40px;
+    position: absolute;
+    top: 15px;
+    right: 95px;
+    transform: rotate(20deg);
+}

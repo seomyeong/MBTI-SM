@@ -1,0 +1,91 @@
+@charset "utf-8";
+.hidden{
+	position: absolute;
+	left: -9999px;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+#success{
+    margin-top: 200px;
+}
+
+/*도넛*/
+.successChkIcon{
+    position: relative;
+    top: 0px;
+    left: calc(50% - 100px);
+}
+.chart{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    transition: 1s ease-in;
+}
+.chart span.center{
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    line-height: 210px;
+    transform: translate(-50%, -50%);
+}
+.chartOK{
+    width: 100px;
+    height: 100px;
+    background: url(../../img/icon/check1.png) no-repeat center;
+    background-size: 100px 100px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+#guideBtn{
+    position: absolute;
+    left: calc(50% - 100px);
+    width: 100%;
+    bottom: 50px;
+}
+
+.contentsBtn{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--black3);
+    border: 1px solid #b2d4ad;
+    border-radius: 30px;
+    background: #fff;
+    width: 200px;
+    line-height: 50px;
+    transition: all 0.4s ease;
+}
+
+.contentsBtn:hover{
+    box-shadow: 6px 6px 6px rgba(226, 240, 223,0.8);
+    color: var(--green);
+}
+/* txt */
+#successTxt{
+    text-align: center;
+    margin-top: 50px;
+}
+#successTxt p:nth-of-type(1){
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#addPoint{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 130px;
+    color: var(--black3);
+}

@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+/* 글 제목 */
+#viewName {
+	display: block;
+	font-size: 30px;
+	width: 1000px;
+	color: #d4d4d4;
+	padding: 5px 10px 20px 10px;
+	text-align: center;
+	margin: 100px auto 0;
+	border-bottom: 2px dotted #e4e4e4;
+}
+
+/* 필터 */
+#topWrap {
+	position: relative;
+	width: 80%;
+	height: 50px;
+	margin: 40px auto 0;
+}
+
+/* mbti 필터 */
+.toggle-switch {
+	position: relative;
+	border: 1px solid #000;
+	width: 60px;
+	height: 30px;
+	border-radius: 50px;
+}
+.toggle-switch input {
+	position: absolute;
+	left: -9999px;
+}
+.toggle-switch .switch {
+	content: '';
+	display: block;
+	width: 28px;
+	height: 28px;
+	background: #b2d4ad;
+	border: 1px solid #000;
+	cursor: pointer;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: left .3s ease-out;
+}
+.toggle-switch input:checked+.switch {
+	left: 30px;
+	background: #a4a0c4;
+}
+.front, .back {
+	position: absolute;
+	top: 7px;
+	z-index: 1;
+	pointer-events: none;
+	user-select: none;
+}
+.front {
+	left: 10px;
+}
+.back {
+	left: 41px;
+}
+
+/* mbti 타입선택 */
+#typeWrap {
+	position: absolute;
+	width: 280px;
+	top: 15px;
+	left: calc(50% - 135px);
+}
+#type1, #type2, #type3, #type4 {
+	position: absolute;
+	top: 0;
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+}
+#type1 {
+	left: calc(50% + 110px);
+}
+#type2 {
+	left: calc(50% + 180px);
+}
+#type3 {
+	left: calc(50% + 250px);
+}
+#type4 {
+	left: calc(50% + 320px);
+}
+input[value="필터적용"] {
+	position: absolute;
+	top: 15px;
+	left: calc(50% + 410px);
+	border: 1px solid #828282;
+	border-radius: 15px;
+	font-size: 0.8em;
+	padding: 6px 8px;
+	cursor: pointer;
+}
+input[value="필터적용"]:hover {
+	background: #d2d2d2;
+}
+
+/* 전체, 인기순, 조회순 */
+#viewAll, #viewHot, #viewTop {
+	position: absolute;
+	top: 13px;
+	display: block;
+	width: 60px;
+	line-height: 30px;
+	border: 1px solid #000;
+	text-align: center;
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: none;
+	opacity: 0.7;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+#viewAll:hover, #viewHot:hover, #viewTop:hover {
+	opacity: 0.8;
+}
+#viewAll {
+	left: calc(50% - 111px);
+	color: #000;
+	background: #f7d794;
+}
+#viewHot {
+	left: calc(50% - 38px);
+	color: #000;
+	background: #f3a683;
+}
+#viewTop {
+	left: calc(50% + 35px);
+	color: #000;
+	background: #81ecec;
+}
+
+
+/* 게시글 table */
+table {
+	width: 1000px;
+	border-collapse: collapse;
+	margin: 30px auto 0;
+}
+td a {
+	text-decoration: none;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #727272;
+}
+td a .commentCount {
+	color: #4ab994;
+}
+table tr:last-of-type td {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+/* 일반게시글, 인기글 table */
+.contents {
+	color: #828282;
+}
+.contents_hot {
+	background: #f9f9f9;
+	color: #828282;
+}
+.hotFlag_top {
+	color: #fff;
+	padding: 1px 5px;
+	background: chocolate;
+	border-radius: 10px;
+	font-size: 0.6em;
+	opacity: 1;
+	font-weight: bold;
+}
+.hotFlag {
+	color: #fff;
+	padding: 1px 5px;
+	background: #a2a2a2;
+	border-radius: 10px;
+	font-size: 0.6em;
+	opacity: 1;
+	font-weight: bold;
+}
+.contents:hover, .contents_hot:hover {
+	background: #f2f2f2;
+}
+th, td {
+	border-top: 1px solid #f2f2f2;
+	padding: 10px 20px;
+	text-align: center;
+}
+td {
+	font-size: 14px;
+}
+td.mbti {
+	position: relative;
+	color: lightseagreen;
+	width: 0;
+}
+td.mbti .mbtiImg {
+	position: absolute;
+	top: 9px;
+	left: 0;
+	width: 20px;
+	height: 13px;
+}
+td.nickName {
+	color: darksalmon;
+}
+
+/* 레벨에 따라 다른 색 부여 */
+td.nickName .level {
+	color: #000;
+	opacity: 0.6;
+	font-size: 0.7em;
+}
+.lv10 {
+	color: darkorchid;
+	font-size: 0.7em;
+}
+.lv30 {
+	color: palevioletred;
+	font-size: 0.7em;
+}
+.lv50 {
+	font-weight: bold;
+	color: royalblue;
+	font-size: 0.7em;
+}
+.lv70 {
+	font-weight: bold;
+	color: red;
+	font-size: 0.7em;
+}
+
+#noContents {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	line-height: 570px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: lightcoral;
+	opacity: 0.7;
+	cursor: default;
+	user-select: none;
+}
+#noContents_img {
+	position: absolute;
+	top: 90px;
+	left: calc(50% - 55px);
+	display: block;
+	opacity: 0.9;
+	width: 110px;
+	height: 154px;
+	background: url(../../img/avatar/MBTI_ISFP.png) center center / cover;
+	cursor: default;
+	user-select: none;
+}
+
+/* 검색바 */
+#bottomWrap {
+	position: relative;
+	width: 1000px;
+	margin: 50px auto 0;
+}
+#searchBar {
+	position : relative;
+	width: 250px; 
+	top: 15px;
+	left: calc(50% - 470px);	
+}
+#searchBar select {
+	width: 80px;
+	height: 30px;
+	text-indent: 7px;
+	color: #c3c3c5;
+	border-color: #c3c3c5;
+	border-radius: 10px;
+	margin-right: 5px;
+}
+#searchBar input[name="searchContents"] {
+	width: 155px;
+	height: 30px;
+	text-indent: 12px;
+	background: #edeef2;
+	border: 0;
+	border-radius: 8px;
+}
+#searchBar input[type="submit"] {
+	position: absolute;
+	top: 5px;
+	right: 14px;
+	width: 20px;
+	height: 20px;
+	border: 0;
+	background: url(../../img/search.png) center center / cover;
+	z-index: 1;
+	text-indent: -9999px;
+	cursor: pointer;
+	opacity: 0.4;
+}
+
+/* 글쓰기 */
+#write {
+	position: absolute;
+	top: -3px;
+	left: calc(50% + 315px);
+	display: block;
+	text-decoration: none;
+	width: 90px;
+	color: #000;
+	border: 1px solid #828282;
+	padding: 5px 15px;
+	line-height: 15px;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 0.8em;
+}
+#write:hover {
+	background: #f2f2f2;
+}
+
+/* 페이징 */
+
+#paging {
+	margin: 0 auto;
+}
+#paging a {
+	text-decoration: none;
+	padding: 4px 9px;
+	border: 1px solid #828282;
+	color: #555;
+	border-radius: 15px;
+	font-size: 0.8em;
+}
+#paging a:hover {
+	background: #f2f2f2;	
+}
+#paging a.now {
+	background: #c2c2c2;
+}
+
+/* 테스트 항목 */
+#testValue {
+	display: none;
+}

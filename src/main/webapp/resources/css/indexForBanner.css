@@ -1,0 +1,284 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden{
+	position: absolute;
+	left: -9999px;
+}
+#banner{
+	box-sizing: border-box;
+    text-align: center;
+    /* height: 40vh; */
+    /* background: blue; */
+}
+#banner p:nth-of-type(1){
+	font-family: 'Cafe24Ssurround';
+	color: var(--black3);
+	padding-top: 30px;
+    font-size: 47px;
+    font-weight: bold;
+}
+#banner p:nth-of-type(1) span:nth-of-type(1){
+    font-size: 18px;
+    position: absolute;
+    top: 24px;
+    left: calc(50% - 185px);
+    color: var(--black2);
+}
+#banner p:nth-of-type(1) span:nth-of-type(2){
+	font-family: 'Cafe24Ssurround';
+    color: #b2d4ad;
+}
+#banner p:nth-of-type(2){
+	margin:16px 0;
+	font-family: 'Cafe24Ssurround';
+	color: #999999;
+	
+}
+
+
+/* avatar */
+#bannerAvatar{
+    /* border: 1px solid #000; */
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 227px;
+}
+.avatar{
+    /* border: 1px solid tomato; */
+    position: absolute;
+    width: 115px;
+    height: 135px;
+    transition: 0.3s;
+}
+
+.avatar:hover{
+    width: 125px;
+    height: 145px;
+}
+/*어린왕자*/
+.enfj{
+    top: 8px;
+    right: 10px;
+}
+/*폭죽여캐*/
+.enfp{
+    top: 0px;
+    left: 550px;
+}
+/*포니테일여캐*/
+.entj{
+    bottom: 0px;
+    right: 80px;
+    z-index: 1;
+}
+/*발표남캐*/
+.entp{
+    top: -15px;
+    right: 250px;
+}
+/*서명*/
+.esfj{
+    bottom: 0px;
+    right: 290px;
+}
+/*뿌까여캐*/
+.esfp{
+    top: 15px;
+    left: 290px;
+}
+/*칠판여캐*/
+.estj{
+    bottom: -10px;
+    left: 80px;
+    z-index: 1;
+}
+/*탐험모자여캐*/
+.estp{
+    top: -3px;
+    left: 8px;
+}
+/*수민*/
+.infj{
+    bottom: 0px;
+    left: 200px;
+    z-index: 1;
+}
+/*지영*/
+.infp{
+    bottom: 5px;
+    left: 370px;
+    z-index: 1;
+}
+/*포마드남캐*/
+.intj{
+    top: 20px;
+    left: 145px;
+}
+/*독서여캐*/
+.intp{
+    top: 30px;
+    right: 157px;
+}
+/*종성*/
+.isfj{
+    bottom: 5px;
+    right: 450px;
+    z-index: 1;
+}
+/*원진*/
+.isfp{
+    bottom: -13px;
+    left: 510px;
+}
+/*박사 안경*/
+.istj{
+    top: 0px;
+    left: 430px;
+}
+/*이즈리얼*/
+.istp{
+    top: 5px;
+    right: 390px;
+}
+
+
+/* mbtiCard */
+li{
+    list-style: none;
+}
+
+.cardTitle{grid-area: title;}
+.cardTitle li{grid-area: main;}
+#mbtiCard{
+    position: relative;
+    padding-top: 17px;
+    padding-left: 27px;
+    width: 100%; height: 100%;
+    min-width: 550px;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    grid-template-areas: 'title title title title'
+                         'main main main main';
+    gap: 25px 25px;
+}
+#mbtiCardTxt{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#mbtiCardTxt p{
+    font-family: 'Cafe24Ssurround';
+    position: absolute;
+    top: -13px;
+    left: -15px;
+    width: 750px;
+    text-align: center;
+}
+#mbtiImg{
+    position: absolute;
+    top: 37px;
+    right: -3px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid #eee;
+    border-radius: 10px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+    width: 42%;
+    height: 84%;
+    background: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#mbtiDeco{
+    position: absolute;
+    top: -7%;
+    right: 31%;
+    z-index: 3;
+    width: 70px;
+    height: 220px;
+    background: url(../img/icon/tape2.png) no-repeat center;
+    background-size: 70px 220px;
+    transform: rotate(40deg);
+}
+#mbtiCard>ul li{
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+.cardGroup{
+    width: 100%;
+}
+
+.cardGroup li{
+    font-size: 13px;
+    color: var(--black3);
+    font-weight: bold;
+}
+.cardGroup li ul li{
+    color: var(--white);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+.cardGroup li ul li:hover{
+    color: #f55454;
+}
+
+.analysisType li ul li{
+    background: #b8a2b4;
+}
+.diplomacyType li ul li{
+    background: #b2d4ad;
+}
+.administratorType li ul li{
+    background: #b9e2e9;
+}
+.explorerType li ul li{
+    background: #fae57c;
+}
+
+/* append by js */
+#cardAvatar{
+    margin-top: -13px;
+    margin-left: 43px;
+    width: 210px;
+    height: 230px;
+}
+.MBTITip{
+    margin-top: 220px;
+    font-size: 15px;
+    text-align: center;
+}
+.analysisTypeSpan{
+    font-size: 18px;
+    font-weight: bold;
+    color: #b8a2b4;
+}
+.diplomacyTypeSpan{
+    font-size: 18px;
+    font-weight: bold;
+    color: #b2d4ad;
+}
+.administratorTypeSpan{
+    font-size: 18px;
+    font-weight: bold;
+    color: #b9e2e9;
+}
+.explorerTypeSpan{
+    font-size: 18px;
+    font-weight: bold;
+    color: #f5db59;
+}

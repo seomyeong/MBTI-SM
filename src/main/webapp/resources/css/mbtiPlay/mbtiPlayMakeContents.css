@@ -1,0 +1,193 @@
+@charset "UTF-8";
+li{list-style: none;}
+.hidden{
+	position: absolute;
+	left:-9999px;
+}
+#introTxt{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    line-height: 33px;
+}
+#introTxt span{
+    font-size: 38px;
+    font-weight: bold;
+    color: #b2d4ad;
+}
+
+#QnA{
+    position: relative;
+    top: 0px;
+    left: calc(50% - 300px);
+    width: 600px;
+    height: 460px;
+}
+.stepTxt{
+    font-weight: bold;
+    color: darksalmon;
+}
+#questionCount{
+	font-size: 14px;
+	color: #b2d4ad;
+}
+
+#addQuestion{
+    height: 100px;
+    text-align: center;
+    position: relative;
+}
+
+#questionValue{
+    font-size: 15px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    color: #ff1707;
+}
+#questionCount{
+    font-size: 12px;
+    position: absolute;
+    top: 80px;
+    right: 125px;
+    color: darksalmon;
+}
+
+.nextIcon{
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 118px;
+    right: 300px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg);
+    background: url(../../img/icon/next.png) no-repeat center / cover;
+    background-size: 100% 100%;
+}
+
+#addAnswers{
+    position: absolute;
+    top: 200px;
+    left: (50% - 200px);
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+#answer01div, #answer02div, #answer03div {
+    position: relative;
+}
+
+.answerValue{
+    position: absolute;
+    font-size: 14px;
+    color: #ff1707;
+}
+.answerCount{
+    position: absolute;
+    font-size: 12px;
+    color: darksalmon;
+}
+
+.answer01Value{
+   top: 60px;
+   left: 80px;
+}
+.answer01Count{
+    top: 60px;
+    right: 125px;
+}
+.answer02Value{
+    top: 135px;
+    left: 80px;
+ }
+.answer02Count{
+    top: 135px;
+    right: 125px;
+}
+.answer03Value{
+    top: 210px;
+    left: 80px;
+}
+.answer03Count{
+    top: 210px;
+    right: 125px;
+}
+
+.userInput{
+    display: block;
+    float: left;
+    padding: 17px;
+    margin: 10px 0 25px 80px;
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #b2d4ad;
+}
+.userInput:focus{
+    outline: #b2d4ad;
+    border: 1px solid #ec7666;
+}
+
+#makeBtn{
+	text-align: center;
+}
+.count{
+	margin-top: 370px;
+	font-weight: bold;
+}
+#last{
+	margin-top: 350px;
+	font-weight: bold;
+	color: red;
+}
+input[type="submit"]{
+	cursor: pointer;
+    width: 130px;
+    line-height: 40px;
+    background: #b2d4ad;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -100px;
+    right: 240px;
+    transition: 0.1s;
+}
+input[type="submit"]:hover {
+	background: #eee;
+}
+/* deco */
+#deco{
+	position: relative;
+}
+#deco1{
+  position: absolute;
+  bottom: -250px;
+  right: -610px;
+  width: 550px;
+  height: 550px;
+  opacity: 0.3;
+  background: url(../../img/icon/deco1.png) no-repeat center;
+  background-size: 100%;
+}
+#deco2{
+  position: absolute;
+  bottom: -80px;
+  right: -310px;
+  width: 160px;
+  height: 210px;
+  opacity: 0.8;
+  background: url(../../img/avatar/MBTI_ENFJ.png) no-repeat center;
+  background-size: 100%;
+}
+#deco3{
+	position: absolute;
+  bottom: -80px;
+  right: -510px;
+  width: 160px;
+  height: 210px;
+  opacity: 0.8;
+  background: url(../../img/avatar/MBTI_ESFP.png) no-repeat center;
+  background-size: 100%;
+}

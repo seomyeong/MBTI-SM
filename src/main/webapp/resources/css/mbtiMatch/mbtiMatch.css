@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* 공통 */
+body, h1, h2, h3, h4, h5, h6, table, tr, th, td, ul, p, img, input { padding: 0; margin: 0; }
+body { min-width: 1200px; }
+
+/* 메인 */
+#main {
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+    -ms-user-select: none; 
+  	-moz-user-select: -moz-none;
+  	-khtml-user-select: none;
+  	-webkit-user-select: none;
+  	user-select: none;
+}
+
+h2 {
+    margin-top: 175px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.letter {
+	font-size: 30px;
+}
+
+.letter1 {
+	color: #f1adad;
+}
+
+.letter2 {
+	color: #b6e0b0;
+}
+
+.letter3 {
+	
+}
+
+.letter4 {
+	
+}
+
+form {
+    width: 1120px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.typeWrap {
+    margin: 100px 0;
+    width: 510px;
+    float: left;
+}
+
+.typeWrap p {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 28px;
+}
+
+.btn input[type="radio"] {
+    display: none;
+}
+
+.btn input[type="radio"] + span {
+    display: inline-block;
+    width: 115px;
+    height: 60px;
+    margin: 5px 5px;
+    line-height: 60px;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.btn input[type="radio"] + span:hover {
+		border: 2px solid #f2f2f2;
+		background: #dfdfdf;
+}
+
+.btn input[type="radio"]:checked + span {
+	border: 2px solid #adcca4;
+	background: #adcca4;
+	color: #fff;
+}
+
+.plus {
+    width: 100px;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 186px;
+}
+
+.submitBtn {
+    display: block;
+    width: 430px;
+    height: 70px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+	background-color: #adcca4;
+	color: #fff;
+}
