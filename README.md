@@ -27,9 +27,9 @@
 <details>
 <summary>요구명세서</summary>
 <div markdown="1">
-  + ✍️작성자 : 이서명
-
-  <a href="https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true" target="_blank">요구명세서 엑셀파일 바로가기</a>
+✍️작성자 : 이서명
+  
+🗒️<a href="https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true" target="_blank">요구명세서 엑셀파일 바로가기</a>{:target="_blank"} (새 탭에서 열립니다.)
   
 </div>
 </details>
