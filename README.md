@@ -23,38 +23,45 @@
 📂맙티는 스프링 MVC 패턴 기반으로 개발되었으며, 처음으로 AJAX를 사용하여 비동기방식에 대한 공부가 많이 되었던 프로젝트입니다. 
 특히 MBTI 캐릭터를 제가 직접 제작하여 추후 굿즈샵같은 사업확장 등 수익 모델까지 고려해보았습니다.  
 
+## :green_heart:개발자 & 개발기간
++ 김원진, 김종성, 이서명(팀장), 정지영 ,황수민 총 5명
++ 2022.01.01~ 2022.01.24 약 4주
+
 ## :green_heart:기획 & 설계
 <details>
 <summary>요구명세서</summary>
 <div markdown="1">
-✍️작성자 : 이서명
+  <img src="https://user-images.githubusercontent.com/89440710/155067640-bf787e7b-e1ec-4766-ac69-d4e4b0a008dc.jpg">
   
-🗒️[요구명세서 엑셀파일 바로가기](https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true){:target="_blank"} (새 탭에서 열립니다.)
   
+  
+  ✍️<b>작성자 : 이서명</b>
+  
+📓[*요구명세서 엑셀파일 바로가기*](https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true)(현재 탭에서 열립니다.)
+<br><br><br>
 </div>
 </details>
 <details>
 <summary>유스케이스 다이어그램</summary>
 <div markdown="1">       
 
-😎숨겨진 내용😎
-
+<img src="https://user-images.githubusercontent.com/89440710/155069575-2685908c-46a5-4d22-b1fd-e49629dc6559.png">
+  
 </div>
 </details>
-
 <details>
-<summary>클래스 다이어그램</summary>
+<summary>액티비티 다이어그램</summary>
 <div markdown="1">       
-
-😎숨겨진 내용😎
-
+  
+<img src="https://user-images.githubusercontent.com/89440710/155071163-e8d8c0a6-b98e-49f4-a314-d0b1bad053b1.png">
+  
 </div>
 </details>
 <details>
 <summary>ERD</summary>
 <div markdown="1">       
 
-😎숨겨진 내용😎
+<img src="https://user-images.githubusercontent.com/89440710/155070545-e7cdc45e-aa5b-42e2-a745-ff7ccfd38e6f.png">
 
 </div>
 </details>
@@ -68,10 +75,31 @@
   + Database : Aparche derby
   + Tool : Whimsical
 
+## :green_heart:서비스 구조
+<p align="center"><img src="https://user-images.githubusercontent.com/89440710/155079803-a915ea3a-2db3-4ee9-bc57-c7f3e95c3fdb.png" width="600"></p>
 
-## :green_heart:개발자 & 개발기간
-+ 5명
-+ 2022.01.01~ 2022.01.24 약 4주
+
+## :green_heart: 주요기능
++ <b>회원가입</b> : Ajax를 통한 이메일과 닉네임 중복검사, 각종 유효성 검사를 통한 회원가입 
++ <b>로그인 / 로그아웃 / 정보수정</b> : 회원 관련 기능
++ <b>문화 게시판</b> : 음악, 영화, 여행지 공유하고 각 게시글에 대한 댓글과 추천기능, 추천순과 댓글순 조회
++ <b>유저 자유 게시판</b> : 게시글 작성, 댓글 & 대댓글달기, 페이징 처리, 제목 & 제목+내용 검색, 추천순과 조회순 조회, 인기글은 3개까지 상단노출
++ <b>MBTI 필터링</b> : 문화 게시판과 유저 자유 게시판에서 글쓴이의 MBTI를 검색하여 16가지의 유형별로 조회 가능
++ <b>MBTI별 궁합 확인</b> : 본인과 상대방의 MBTI를 선택하여 궁합을 조회하고 해당 궁합에 대한 코멘트 작성
++ <b>맙티플레이</b> : 각종 문답을 풀고 해당 문답에 대한 답변 수치를 MBTI별로 조회 가능
+
 
 ## :green_heart:담당기능 소개 & 시연
+1. <b>MBTI 캐릭터 제작</b>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/89440710/155075860-0052371a-924e-4161-8184-9ca9a6796505.png" width="400" height="400"></p>
+<p align="center">진짜 서비스를 오픈한다는 마인드로 상품성 있는 캐릭터를 제작하고자 했습니다. 학원에서 진행하는 단발성 프로젝트이지만, 기획력과 차별화를 돋보이고 싶었고 모두의 기억에 오래도록 남게 하고 싶었습니다. 직접 16가지의 유형별 캐릭터를 작업하여 실물 스티커 발주까지 진행했습니다.</p>
+
+
+2. <b>배너</b>
+
+  INDEX 페이지 진입 시 16개의 캐릭터가 랜덤으로 FadeIn됩니다.
+
+3. <b>맙티플레이</b>
+
 이 프로젝트에서 '맙티플레이'라는 기능을 맡았습니다. 맙티플레이는 유저들이 사이트에서 제공하는 문답을 푸는 컨텐츠입니다. 맙티플레이는 커뮤니티의 회원만 가능한 기능이고, 회원이라면 다양한 문답을 풀 수 있고 또 문답을 직접 만들어 다른 회원들에게 본인이 만든 문답을 공유할 수 있습니다.
