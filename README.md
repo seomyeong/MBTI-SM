@@ -90,22 +90,40 @@
 
 
 ## :green_heart:담당기능 소개 & 시연
-1. <b>MBTI 캐릭터 제작</b>
+### ✔️MBTI 캐릭터 제작
 
 <p align="center"><img src="https://user-images.githubusercontent.com/89440710/155075860-0052371a-924e-4161-8184-9ca9a6796505.png" width="400" height="400"></p>
 진짜 서비스를 오픈한다는 마인드로 상품성 있는 캐릭터를 제작하고자 했습니다. 학원에서 진행하는 단발성 프로젝트이지만, 기획력과 차별화를 돋보이고 싶었고 모두의 기억에 오래도록 남게 하고 싶었습니다. 직접 16가지의 유형별 캐릭터를 작업하여 실물 스티커 발주까지 진행했습니다.
 <br><br>
-2. <b>배너</b>
+### ✔️배너
 
 <p align="center"><img src="https://user-images.githubusercontent.com/89440710/155087430-6470cdfc-85ae-477c-a66a-93f996f960e7.gif"></p>
   INDEX 페이지 진입 시 16개의 캐릭터가 랜덤으로 FadeIn됩니다.
 <br><br>
-3. <b>맙티플레이</b>
+### ✔️맙티플레이
+
+<p align="center"><img src="https://user-images.githubusercontent.com/89440710/155135828-3c7ebe6b-43fd-4e6d-8454-3c302152f73a.png" width="700"></p>
+
+<p align="center">☝️<b><i>맙티 플레이 로비</i></b></p>
 
 이 프로젝트에서 '맙티플레이'라는 기능을 맡았습니다. 맙티플레이는 유저들이 사이트에서 제공하는 문답을 푸는 컨텐츠입니다. 맙티플레이는 커뮤니티의 회원만 가능한 기능이고, 회원이라면 다양한 문답을 풀 수 있고 또 문답을 직접 만들어 다른 회원들에게 본인이 만든 문답을 공유할 수 있습니다.
 <br><br>
-💬<b>맙티 플레이 로비</b>
+
+
 
 💬<b>맙티 플레이 만들기</b>
 
++ 문답 만들기
+<img src="https://user-images.githubusercontent.com/89440710/155135016-74ee0d74-2725-4a7f-95c8-7e14b3375359.gif" width="700">
+
++ 유효성 검사
+<img src="https://user-images.githubusercontent.com/89440710/155135566-ef5ae74c-f777-4f79-a761-8d568431ad7d.gif" width="700">
+
 💬<b>맙티 플레이 즐기기</b>
+
++ 문답 풀기
+<img src="https://user-images.githubusercontent.com/89440710/155133532-a30fa162-0a02-4bf6-a193-349f8aa8fd7d.gif" width="700">
+
+
++ DB가 보유하고 있는 문답을 다 풀었을 시
+<img src="https://user-images.githubusercontent.com/89440710/155134060-4c54153a-5f18-4ec4-8613-28d92810a5a9.gif" width="700">
