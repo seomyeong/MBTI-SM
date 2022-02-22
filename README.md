@@ -90,17 +90,17 @@
 
 
 ## :green_heart:담당기능 소개 & 시연
-### ✔️MBTI 캐릭터 제작
+<h3>:heavy_check_mark:MBTI 캐릭터 제작</h3>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/89440710/155075860-0052371a-924e-4161-8184-9ca9a6796505.png" width="400" height="400"></p>
 진짜 서비스를 오픈한다는 마인드로 상품성 있는 캐릭터를 제작하고자 했습니다. 학원에서 진행하는 단발성 프로젝트이지만, 기획력과 차별화를 돋보이고 싶었고 모두의 기억에 오래도록 남게 하고 싶었습니다. 직접 16가지의 유형별 캐릭터를 작업하여 실물 스티커 발주까지 진행했습니다.
 <br><br>
-### ✔️배너
+<h3>:heavy_check_mark:배너</h3>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/89440710/155087430-6470cdfc-85ae-477c-a66a-93f996f960e7.gif"></p>
   INDEX 페이지 진입 시 16개의 캐릭터가 랜덤으로 FadeIn됩니다.
 <br><br>
-### ✔️맙티플레이
+<h3>:heavy_check_mark:맙티플레이</h3>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/89440710/155135828-3c7ebe6b-43fd-4e6d-8454-3c302152f73a.png" width="700"></p>
 
