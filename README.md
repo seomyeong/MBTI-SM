@@ -27,9 +27,10 @@
 <details>
 <summary>요구명세서</summary>
 <div markdown="1">
-  
-[요구명세서](https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true)
+  + ✍️작성자 : 이서명
 
+  <a href="https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true" target="_blank">요구명세서 엑셀파일 바로가기</a>
+  
 </div>
 </details>
 <details>
