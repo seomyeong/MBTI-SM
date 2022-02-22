@@ -26,8 +26,9 @@
 ## :green_heart:기획 & 설계
 <details>
 <summary>요구명세서</summary>
-<div markdown="1">       
-[요구명세서 엑셀 시트 바로가기](https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true)
+<div markdown="1">
+  
+[요구명세서](https://docs.google.com/spreadsheets/d/1y8I8ekMBDrVoEW5d0sTVSe8oLKO0We64/edit?usp=sharing&ouid=104734017625132038361&rtpof=true&sd=true)
 
 </div>
 </details>
