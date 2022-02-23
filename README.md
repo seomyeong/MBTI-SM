@@ -114,10 +114,10 @@
 💬<b>맙티 플레이 만들기</b>
 
 <img src="https://user-images.githubusercontent.com/89440710/155135016-74ee0d74-2725-4a7f-95c8-7e14b3375359.gif" width="700">
-+ 문답 만들기
+<li>문답 만들기</li>
 <br><br>
 <img src="https://user-images.githubusercontent.com/89440710/155135566-ef5ae74c-f777-4f79-a761-8d568431ad7d.gif" width="700">
-+ 유효성 검사
+<li>유효성 검사</li>
 <br><br>
 
 💬<b>맙티 플레이 즐기기</b>
