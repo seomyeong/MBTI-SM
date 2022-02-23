@@ -53,7 +53,7 @@
 <summary>액티비티 다이어그램</summary>
 <div markdown="1">       
   
-<img src="https://user-images.githubusercontent.com/89440710/155071163-e8d8c0a6-b98e-49f4-a314-d0b1bad053b1.png">
+<img src="https://user-images.githubusercontent.com/89440710/155321435-f434805e-b93b-4ad9-be68-b8357a8cec41.png">
   
 </div>
 </details>
