@@ -114,20 +114,20 @@
 💬<b>맙티 플레이 만들기</b>
 
 <img src="https://user-images.githubusercontent.com/89440710/155135016-74ee0d74-2725-4a7f-95c8-7e14b3375359.gif" width="700">
-+ ☝️ 문답 만들기
+☝️ + 문답 만들기
 
 <img src="https://user-images.githubusercontent.com/89440710/155135566-ef5ae74c-f777-4f79-a761-8d568431ad7d.gif" width="700">
-+ ☝️ 유효성 검사
+☝️ + 유효성 검사
 
 
 💬<b>맙티 플레이 즐기기</b>
 
 <img src="https://user-images.githubusercontent.com/89440710/155133532-a30fa162-0a02-4bf6-a193-349f8aa8fd7d.gif" width="700">
-+ ☝️ 문답 풀기
+☝️ + 문답 풀기
   + db가 보유하고 있는 문들 중 <b>랜덤</b>으로 출력됩니다.
   + 다음 버튼을 누르면 유저가 풀었던 문답은 제외되고, 남은 문답 중 역시 랜덤으로 출력됩니다.
 
 
 <img src="https://user-images.githubusercontent.com/89440710/155134060-4c54153a-5f18-4ec4-8613-28d92810a5a9.gif" width="700">
 
-+ ☝️ DB가 보유하고 있는 문답을 다 풀었을 시
+☝️ + DB가 보유하고 있는 문답을 다 풀었을 시
